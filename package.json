@@ -1,0 +1,46 @@
+{
+  "name": "node-ts-vite",
+  "version": "1.0.0",
+  "description": "node-ts-vite",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/main.ms",
+    "start:dev": "vite",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nenjotsu/node-ts-vite.git"
+  },
+  "keywords": [],
+  "author": "nenjotsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nenjotsu/node-ts-vite/issues"
+  },
+  "homepage": "https://github.com/nenjotsu/node-ts-vite#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cli-color": "^2.0.3",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "nanoid": "^4.0.0",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/qs": "^6.9.7",
+    "@vitest/ui": "^0.20.2",
+    "esbuild": "^0.14.51",
+    "vite": "^3.0.4",
+    "vite-plugin-node": "^1.0.0",
+    "vitest": "^0.20.2"
+  }
+}
